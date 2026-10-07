@@ -37,6 +37,7 @@ rand.workspace = true
 binius-circuits = { path = "../circuits" }
 binius-frontend = { path = "../frontend" }
 binius-math = { path = "../math", features = ["test-utils"] }
+binius-spartan-verifier = { path = "../spartan-verifier" }
 criterion.workspace = true
 proptest.workspace = true
 rand = { workspace = true, features = ["thread_rng"] }
